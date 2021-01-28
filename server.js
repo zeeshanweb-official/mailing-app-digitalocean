@@ -29,7 +29,7 @@ app.post("/send-email", function (req, res) {
     secure: true,
     auth: {
       user: "milhas.jean@gmail.com",
-      pass: "Simple87-",
+      pass: "B023991w",
     },
   });
   let mailOptions = {
