@@ -52,7 +52,7 @@ app.post("/send-email", function (req, res) {
         return res.send(error);
       }
       console.log("Message %s sent: %s", info.messageId, info.response);
-      res.send("success");
+      res.json({ message: "email sent successfully" });
     });
   } catch (error) {
     console.log(error);
